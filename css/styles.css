@@ -21,12 +21,6 @@
 	 Dark Grey: 		#252525
    =============================== */
 
-/*
-.galleryText{
-  font-size: calc(1rem + 1vw);
-}
-*/
-
 /* ---------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------- General --------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -351,13 +345,11 @@ img.hover-shadow {
   width: 50%;
 }
 
-.image_off, .portraitGallery:hover .image_on, #landscapeGallery:hover .image_on, #architectureGallery:hover .image_on,
-#stillLifeGallery:hover .image_on, #emailLink:hover .image_on{
+.image_off, .galleryImage:hover .image_on, #emailLink:hover .image_on{
   display: none;
 }
 
-.image_on, .portraitGallery:hover .image_off, #landscapeGallery:hover .image_off, #architectureGallery:hover .image_off,
-#stillLifeGallery:hover .image_off, #emailLink:hover .image_off{
+.image_on, .galleryImage:hover .image_off, #emailLink:hover .image_off{
   display: block;
 }
 
@@ -703,11 +695,6 @@ input[type=submit]:hover {
     position: relative;
   }
 
-/*
-  .rightHalf{
-    padding: 85px 30px 30px 0;
-  }
-*/
 }
 
 @media (max-width: 950px) {
