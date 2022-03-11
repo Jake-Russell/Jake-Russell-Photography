@@ -128,7 +128,7 @@
 		<footer class="main">
 			<div class="container clearfix">
 				<div id="copyright">
-					<p>Copyright &copy; 2020 <strong>Jake Russell</strong> | All Rights Reserved</p>
+					<p>Copyright &copy; 2022 <strong>Jake Russell</strong> | All Rights Reserved</p>
 				</div>
 			</div>
 		</footer>
